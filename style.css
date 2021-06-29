@@ -1,0 +1,54 @@
+* {
+    font-size: 15px;
+}
+
+body {
+    background-color: hsl(233, 47%, 7%);
+}
+
+.cardContainer {
+
+    
+}
+.leftSide {
+    position: absolute;
+    margin-top: 20vh;
+    margin-left: 13vw;
+    background-color: hsl(244, 38%, 16%);
+    width:540px;
+    height: 446px;
+}
+
+.rightSide {
+    position: absolute;
+    margin-top: 20vh;
+    margin-left: 50vw;
+}
+
+.title {
+    color: hsl(0, 0%, 100%);
+    font-family: Inter;
+    font-weight: 700;
+}
+
+.emphasis {
+    color: hsl(277, 64%, 61%)
+}
+
+.description {
+    color: hsla(0, 0%, 100%, 0.75);
+    font-weight: 400;
+}
+
+.statHeadings {
+    color: hsla(0, 0%, 100%, 0.6);
+    font-weight: 400;
+}
+
+.imageFilter {
+    position: absolute;
+    background-color: rgba(111, 0, 180, 0.897);
+    opacity: .6;
+    width:540px;
+    height: 446px;
+}
