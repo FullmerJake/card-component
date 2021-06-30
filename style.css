@@ -88,6 +88,13 @@ img {
   border-radius: 0 15px 15px 0;
 }
 
+.attribution {
+  position: absolute;
+  margin-top: 15vh;
+  margin-left: 40vw;
+  color: antiquewhite;
+}
+
 @media (max-width: 500px) {
   img {
     width: 260px;
@@ -151,5 +158,9 @@ img {
     width: 260px;
     height: 200px;
     border-radius: 15px 15px 0 0;
+  }
+  .attribution {
+    margin-left: 20vw;
+    color: antiquewhite;
   }
 }
